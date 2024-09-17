@@ -11,6 +11,9 @@ module.exports = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      backgroundImage: {
+        'custom-bg': "url('/img/2vmbg.webp')",
+      },
     },
   },
   plugins: [],
