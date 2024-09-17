@@ -3,8 +3,8 @@ import Title from "./Title";
 
 export default function HeroSection() {
     return (
-        <section id="home">
-            <div class="flex justify-center items-center h-screen">
+        <section id="home" className="px-4 pt-20">
+            <div class="flex justify-center items-center h-full">
                 <Card>
                     <Title>Welcome to 2VM Consulting Limited</Title> 
                     <p>

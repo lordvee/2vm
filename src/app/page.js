@@ -31,11 +31,12 @@ export default function Home() {
   };
   const sel = useState('home');
   return (
-    <div className="bg-custom-bg bg-cover bg-center h-screen">
-      <Navbar { ...{sel, pickSection} }/>
-      {
-        showSelection(sel[0])
-      }
+    <div className="lg:bg-custom-bg bg-cover md:bg-custom-bg bg-cover bg-center max-h-screen h-screen pt-20">
+      <Navbar {...{ sel, pickSection }} />
+
+        {
+          showSelection(sel[0])
+        }
     </div>
   );
 }

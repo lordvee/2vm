@@ -3,8 +3,8 @@ import Title from "./Title";
 
 export default function ServicesSection() {
     return (
-        <section id="services" >
-            <div class="flex justify-center items-center h-screen">
+        <section id="services"  className="pt-20 px-4" >
+            <div class="flex justify-center items-center h-full">
                 <Card>
                     <Title>Our Services</Title>
                     <ul>
